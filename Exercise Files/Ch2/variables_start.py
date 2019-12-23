@@ -15,11 +15,9 @@ f = 0
 
 # Global vs. local variables in functions
 
-def someFunction():
-	global f
-	f = "def"
-	print(f)
+import matplotlib.pyplot as plt
+plt.plot([1,2,3,4])
+plt.show()
 
-someFunction()
 
 
